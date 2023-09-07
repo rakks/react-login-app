@@ -1,0 +1,30 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-evapp1-staging-85919-authRole",
+      "UnauthRoleArn": "arn:aws:iam::924250964563:role/amplify-evapp1-staging-85919-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::924250964563:role/amplify-evapp1-staging-85919-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-evapp1-staging-85919-deployment",
+      "UnauthRoleName": "amplify-evapp1-staging-85919-unauthRole",
+      "StackName": "amplify-evapp1-staging-85919",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:924250964563:stack/amplify-evapp1-staging-85919/ad9b4870-4325-11ee-94ab-06c12a2f2ef8",
+      "AmplifyAppId": "d120m4p7g9ft5x",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-evapp1-staging-85919-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "evapp18ef114c3": {}
+      },
+      "function": {
+        "getQuickSightDashboardEmbedURL": {
+          "deploymentBucketName": "amplify-evapp1-staging-85919-deployment",
+          "s3Key": "amplify-builds/getQuickSightDashboardEmbedURL-33722b52624a49746873-build.zip"
+        }
+      },
+      "api": {
+        "quicksight": {}
+      }
+    }
+  }
+}
