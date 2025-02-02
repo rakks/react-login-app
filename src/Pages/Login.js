@@ -67,9 +67,8 @@ const Login = (props) => {
   return (
 
       <div style={{ backgroundImage: `url('${background}')`, height: '100vh'}}>
-            <h1 style={{textAlign:"center"}}> NX2 - DIP</h1>
+            {/* <h1 style={{textAlign:"center"}}> NX2 - DIP</h1> */}
     <div id="login-form" >
-
       <form onSubmit={handleSubmit}>
       <h3 style={{textAlign:"center"}}>Sign in to your account</h3>
         <label htmlFor="username">Username:</label>

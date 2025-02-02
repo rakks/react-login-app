@@ -4,7 +4,8 @@ import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 import { Amplify, Auth } from 'aws-amplify';
 import Embed from './Embed';
 import { makeStyles } from '@material-ui/core/styles';
-import CPODashboardImg from "../images/CPODashboard.png"
+// import CPODashboardImg from "../images/CPODashboard.png";
+import CPODashboardImg from "../images/CPODashboard-Dummy.png";
 
 const useStyles = makeStyles((theme) => ({
   title: {

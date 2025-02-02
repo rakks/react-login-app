@@ -46,27 +46,27 @@ const Layout = ({children}) => {
           <MenuItem className="menu1" component={<Link to="/dashboard" className="link" />} icon={<MenuRoundedIcon />}>
             <h2>DASHBOARD</h2>
           </MenuItem>
-          <SubMenu label="Charging Point Operator">
-            <MenuItem component={<Link to="/CPODashboard" className="link" />} > CPO Dashboard </MenuItem>
-            <MenuItem component={<Link to="/VColorCPO" className="link" />} > VColor CPO Dashboard </MenuItem>
-            <MenuItem component={<Link to="/LTADashboard" className="link" />} > LTA Dashboard </MenuItem>
+          <SubMenu label="Dashboard 1">
+            <MenuItem component={<Link to="/CPODashboard" className="link" />} > Dashboard 1</MenuItem>
+            <MenuItem component={<Link to="/VColorCPO" className="link" />} > Dashboard 2 </MenuItem>
+            {/* <MenuItem component={<Link to="/LTADashboard" className="link" />} > LTA Dashboard </MenuItem>
             <MenuItem component={<Link to="/ESVEDashboard" className="link" />} > ESVE Dashboard </MenuItem>
-            <MenuItem component={<Link to="/TNBDashboard" className="link" />} > TNB Dashboard </MenuItem>
+            <MenuItem component={<Link to="/TNBDashboard" className="link" />} > TNB Dashboard </MenuItem> */}
             <MenuItem> Monitoring </MenuItem>
           </SubMenu>
-          <SubMenu label="E-Mobility Provider">
+          <SubMenu label="Dashboard 2">
             <MenuItem> Quicksight Dashboard </MenuItem>
             <MenuItem> Monitoring </MenuItem>
           </SubMenu>
-          <SubMenu label="Facility">
+          <SubMenu label="Dashboard 3">
             <MenuItem> Dashboard </MenuItem>
             <MenuItem> Monitoring </MenuItem>
           </SubMenu>
-          <SubMenu label="Fleet Operator">
+          <SubMenu label="Dashboard 4">
             <MenuItem> Dashboard </MenuItem>
             <MenuItem> Monitoring </MenuItem>
           </SubMenu>
-          <SubMenu label="Utility Provider">
+          <SubMenu label="Dashboard 5">
             <MenuItem> Dashboard </MenuItem>
             <MenuItem> Monitoring </MenuItem>
           </SubMenu>

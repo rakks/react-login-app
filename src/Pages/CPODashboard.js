@@ -1,4 +1,5 @@
-import CPODashboardImg from "../images/CPODashboard.png";
+// import CPODashboardImg from "../images/CPODashboard.png";
+import CPODashboardImg from "../images/CPODashboard-Dummy.png";
 
 const CPODashboard = () => {
     return (
